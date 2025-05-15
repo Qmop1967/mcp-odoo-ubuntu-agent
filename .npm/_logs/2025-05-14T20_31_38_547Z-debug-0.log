@@ -1,0 +1,190 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.8.2
+2 info using node@v18.20.8
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/root/.npmrc
+5 silly config load:file:/usr/etc/npmrc
+6 verbose title npm install less less-plugin-clean-css
+7 verbose argv "install" "--global" "less" "less-plugin-clean-css"
+8 verbose logfile logs-max:10 dir:/root/.npm/_logs/2025-05-14T20_31_38_547Z-
+9 verbose logfile /root/.npm/_logs/2025-05-14T20_31_38_547Z-debug-0.log
+10 silly packumentCache heap:1057226752 maxSize:264306688 maxEntrySize:132153344
+11 silly logfile done cleaning log files
+12 silly idealTree buildDeps
+13 silly fetch manifest less@*
+14 silly packumentCache full:https://registry.npmjs.org/less cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/npm 141ms
+16 http fetch GET 200 https://registry.npmjs.org/less 167ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/less set size:undefined disposed:false
+18 silly fetch manifest less-plugin-clean-css@*
+19 silly packumentCache full:https://registry.npmjs.org/less-plugin-clean-css cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/less-plugin-clean-css 32ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/less-plugin-clean-css set size:undefined disposed:false
+22 silly placeDep ROOT less@4.3.0 OK for:  want: *
+23 silly placeDep ROOT less-plugin-clean-css@1.6.0 OK for:  want: *
+24 silly fetch manifest copy-anything@^2.0.1
+25 silly packumentCache full:https://registry.npmjs.org/copy-anything cache-miss
+26 http fetch GET 200 https://registry.npmjs.org/copy-anything 39ms (cache miss)
+27 silly packumentCache full:https://registry.npmjs.org/copy-anything set size:undefined disposed:false
+28 silly fetch manifest parse-node-version@^1.0.1
+29 silly packumentCache full:https://registry.npmjs.org/parse-node-version cache-miss
+30 http fetch GET 200 https://registry.npmjs.org/parse-node-version 28ms (cache miss)
+31 silly packumentCache full:https://registry.npmjs.org/parse-node-version set size:undefined disposed:false
+32 silly fetch manifest tslib@^2.3.0
+33 silly packumentCache full:https://registry.npmjs.org/tslib cache-miss
+34 http fetch GET 200 https://registry.npmjs.org/tslib 34ms (cache miss)
+35 silly packumentCache full:https://registry.npmjs.org/tslib set size:undefined disposed:false
+36 silly fetch manifest errno@^0.1.1
+37 silly packumentCache full:https://registry.npmjs.org/errno cache-miss
+38 http fetch GET 200 https://registry.npmjs.org/errno 30ms (cache miss)
+39 silly packumentCache full:https://registry.npmjs.org/errno set size:undefined disposed:false
+40 silly fetch manifest graceful-fs@^4.1.2
+41 silly packumentCache full:https://registry.npmjs.org/graceful-fs cache-miss
+42 http fetch GET 200 https://registry.npmjs.org/graceful-fs 29ms (cache miss)
+43 silly packumentCache full:https://registry.npmjs.org/graceful-fs set size:undefined disposed:false
+44 silly fetch manifest image-size@~0.5.0
+45 silly packumentCache full:https://registry.npmjs.org/image-size cache-miss
+46 http fetch GET 200 https://registry.npmjs.org/image-size 53ms (cache miss)
+47 silly packumentCache full:https://registry.npmjs.org/image-size set size:undefined disposed:false
+48 silly fetch manifest make-dir@^2.1.0
+49 silly packumentCache full:https://registry.npmjs.org/make-dir cache-miss
+50 http fetch GET 200 https://registry.npmjs.org/make-dir 30ms (cache miss)
+51 silly packumentCache full:https://registry.npmjs.org/make-dir set size:undefined disposed:false
+52 silly fetch manifest mime@^1.4.1
+53 silly packumentCache full:https://registry.npmjs.org/mime cache-miss
+54 http fetch GET 200 https://registry.npmjs.org/mime 30ms (cache miss)
+55 silly packumentCache full:https://registry.npmjs.org/mime set size:undefined disposed:false
+56 silly fetch manifest needle@^3.1.0
+57 silly packumentCache full:https://registry.npmjs.org/needle cache-miss
+58 http fetch GET 200 https://registry.npmjs.org/needle 39ms (cache miss)
+59 silly packumentCache full:https://registry.npmjs.org/needle set size:undefined disposed:false
+60 silly fetch manifest source-map@~0.6.0
+61 silly packumentCache full:https://registry.npmjs.org/source-map cache-miss
+62 http fetch GET 200 https://registry.npmjs.org/source-map 33ms (cache miss)
+63 silly packumentCache full:https://registry.npmjs.org/source-map set size:undefined disposed:false
+64 silly fetch manifest clean-css@5.3.3
+65 silly packumentCache full:https://registry.npmjs.org/clean-css cache-miss
+66 http fetch GET 200 https://registry.npmjs.org/clean-css 42ms (cache miss)
+67 silly packumentCache full:https://registry.npmjs.org/clean-css set size:undefined disposed:false
+68 silly placeDep node_modules/less copy-anything@2.0.6 OK for: less@4.3.0 want: ^2.0.1
+69 silly placeDep node_modules/less errno@0.1.8 OK for: less@4.3.0 want: ^0.1.1
+70 silly placeDep node_modules/less graceful-fs@4.2.11 OK for: less@4.3.0 want: ^4.1.2
+71 silly placeDep node_modules/less image-size@0.5.5 OK for: less@4.3.0 want: ~0.5.0
+72 silly placeDep node_modules/less make-dir@2.1.0 OK for: less@4.3.0 want: ^2.1.0
+73 silly placeDep node_modules/less mime@1.6.0 OK for: less@4.3.0 want: ^1.4.1
+74 silly placeDep node_modules/less needle@3.3.1 OK for: less@4.3.0 want: ^3.1.0
+75 silly placeDep node_modules/less parse-node-version@1.0.1 OK for: less@4.3.0 want: ^1.0.1
+76 silly placeDep node_modules/less source-map@0.6.1 OK for: less@4.3.0 want: ~0.6.0
+77 silly placeDep node_modules/less tslib@2.8.1 OK for: less@4.3.0 want: ^2.3.0
+78 silly fetch manifest is-what@^3.14.1
+79 silly packumentCache full:https://registry.npmjs.org/is-what cache-miss
+80 http fetch GET 200 https://registry.npmjs.org/is-what 35ms (cache miss)
+81 silly packumentCache full:https://registry.npmjs.org/is-what set size:undefined disposed:false
+82 silly fetch manifest prr@~1.0.1
+83 silly packumentCache full:https://registry.npmjs.org/prr cache-miss
+84 http fetch GET 200 https://registry.npmjs.org/prr 31ms (cache miss)
+85 silly packumentCache full:https://registry.npmjs.org/prr set size:undefined disposed:false
+86 silly fetch manifest pify@^4.0.1
+87 silly packumentCache full:https://registry.npmjs.org/pify cache-miss
+88 http fetch GET 200 https://registry.npmjs.org/pify 35ms (cache miss)
+89 silly packumentCache full:https://registry.npmjs.org/pify set size:undefined disposed:false
+90 silly fetch manifest semver@^5.6.0
+91 silly packumentCache full:https://registry.npmjs.org/semver cache-miss
+92 http fetch GET 200 https://registry.npmjs.org/semver 41ms (cache miss)
+93 silly packumentCache full:https://registry.npmjs.org/semver set size:undefined disposed:false
+94 silly fetch manifest iconv-lite@^0.6.3
+95 silly packumentCache full:https://registry.npmjs.org/iconv-lite cache-miss
+96 http fetch GET 200 https://registry.npmjs.org/iconv-lite 42ms (cache miss)
+97 silly packumentCache full:https://registry.npmjs.org/iconv-lite set size:undefined disposed:false
+98 silly fetch manifest sax@^1.2.4
+99 silly packumentCache full:https://registry.npmjs.org/sax cache-miss
+100 http fetch GET 200 https://registry.npmjs.org/sax 48ms (cache miss)
+101 silly packumentCache full:https://registry.npmjs.org/sax set size:undefined disposed:false
+102 silly placeDep node_modules/less-plugin-clean-css clean-css@5.3.3 OK for: less-plugin-clean-css@1.6.0 want: 5.3.3
+103 silly placeDep node_modules/less-plugin-clean-css source-map@0.6.1 OK for: clean-css@5.3.3 want: ~0.6.0
+104 silly placeDep node_modules/less is-what@3.14.1 OK for: copy-anything@2.0.6 want: ^3.14.1
+105 silly placeDep node_modules/less prr@1.0.1 OK for: errno@0.1.8 want: ~1.0.1
+106 silly placeDep node_modules/less pify@4.0.1 OK for: make-dir@2.1.0 want: ^4.0.1
+107 silly placeDep node_modules/less semver@5.7.2 OK for: make-dir@2.1.0 want: ^5.6.0
+108 silly placeDep node_modules/less iconv-lite@0.6.3 OK for: needle@3.3.1 want: ^0.6.3
+109 silly placeDep node_modules/less sax@1.4.1 OK for: needle@3.3.1 want: ^1.2.4
+110 silly fetch manifest safer-buffer@>= 2.1.2 < 3.0.0
+111 silly packumentCache full:https://registry.npmjs.org/safer-buffer cache-miss
+112 http fetch GET 200 https://registry.npmjs.org/safer-buffer 35ms (cache miss)
+113 silly packumentCache full:https://registry.npmjs.org/safer-buffer set size:undefined disposed:false
+114 silly placeDep node_modules/less safer-buffer@2.1.2 OK for: iconv-lite@0.6.3 want: >= 2.1.2 < 3.0.0
+115 silly reify moves {}
+116 silly tarball no local data for less-plugin-clean-css@https://registry.npmjs.org/less-plugin-clean-css/-/less-plugin-clean-css-1.6.0.tgz. Extracting by manifest.
+117 silly tarball no local data for less@https://registry.npmjs.org/less/-/less-4.3.0.tgz. Extracting by manifest.
+118 silly tarball no local data for source-map@https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz. Extracting by manifest.
+119 silly tarball no local data for clean-css@https://registry.npmjs.org/clean-css/-/clean-css-5.3.3.tgz. Extracting by manifest.
+120 silly tarball no local data for safer-buffer@https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz. Extracting by manifest.
+121 silly tarball no local data for iconv-lite@https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.6.3.tgz. Extracting by manifest.
+122 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-5.7.2.tgz. Extracting by manifest.
+123 silly tarball no local data for sax@https://registry.npmjs.org/sax/-/sax-1.4.1.tgz. Extracting by manifest.
+124 silly tarball no local data for prr@https://registry.npmjs.org/prr/-/prr-1.0.1.tgz. Extracting by manifest.
+125 silly tarball no local data for is-what@https://registry.npmjs.org/is-what/-/is-what-3.14.1.tgz. Extracting by manifest.
+126 silly tarball no local data for pify@https://registry.npmjs.org/pify/-/pify-4.0.1.tgz. Extracting by manifest.
+127 silly tarball no local data for tslib@https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz. Extracting by manifest.
+128 silly tarball no local data for source-map@https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz. Extracting by manifest.
+129 silly tarball no local data for needle@https://registry.npmjs.org/needle/-/needle-3.3.1.tgz. Extracting by manifest.
+130 silly tarball no local data for parse-node-version@https://registry.npmjs.org/parse-node-version/-/parse-node-version-1.0.1.tgz. Extracting by manifest.
+131 silly tarball no local data for mime@https://registry.npmjs.org/mime/-/mime-1.6.0.tgz. Extracting by manifest.
+132 silly tarball no local data for make-dir@https://registry.npmjs.org/make-dir/-/make-dir-2.1.0.tgz. Extracting by manifest.
+133 silly tarball no local data for image-size@https://registry.npmjs.org/image-size/-/image-size-0.5.5.tgz. Extracting by manifest.
+134 silly tarball no local data for graceful-fs@https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz. Extracting by manifest.
+135 silly tarball no local data for errno@https://registry.npmjs.org/errno/-/errno-0.1.8.tgz. Extracting by manifest.
+136 silly tarball no local data for copy-anything@https://registry.npmjs.org/copy-anything/-/copy-anything-2.0.6.tgz. Extracting by manifest.
+137 http fetch GET 200 https://registry.npmjs.org/less-plugin-clean-css/-/less-plugin-clean-css-1.6.0.tgz 505ms (cache miss)
+138 http fetch GET 200 https://registry.npmjs.org/make-dir/-/make-dir-2.1.0.tgz 494ms (cache miss)
+139 http fetch GET 200 https://registry.npmjs.org/mime/-/mime-1.6.0.tgz 495ms (cache miss)
+140 http fetch GET 200 https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz 495ms (cache miss)
+141 http fetch GET 200 https://registry.npmjs.org/copy-anything/-/copy-anything-2.0.6.tgz 496ms (cache miss)
+142 http fetch GET 200 https://registry.npmjs.org/image-size/-/image-size-0.5.5.tgz 504ms (cache miss)
+143 http fetch GET 200 https://registry.npmjs.org/pify/-/pify-4.0.1.tgz 513ms (cache miss)
+144 http fetch GET 200 https://registry.npmjs.org/errno/-/errno-0.1.8.tgz 505ms (cache miss)
+145 http fetch GET 200 https://registry.npmjs.org/prr/-/prr-1.0.1.tgz 522ms (cache miss)
+146 http fetch GET 200 https://registry.npmjs.org/parse-node-version/-/parse-node-version-1.0.1.tgz 518ms (cache miss)
+147 http fetch GET 200 https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz 550ms (cache miss)
+148 http fetch GET 200 https://registry.npmjs.org/sax/-/sax-1.4.1.tgz 547ms (cache miss)
+149 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-5.7.2.tgz 569ms (cache miss)
+150 http fetch GET 200 https://registry.npmjs.org/is-what/-/is-what-3.14.1.tgz 577ms (cache miss)
+151 http fetch GET 200 https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz 583ms (cache miss)
+152 http fetch GET 200 https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.6.3.tgz 826ms (cache miss)
+153 http fetch GET 200 https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz 843ms (cache miss)
+154 http fetch GET 200 https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz 831ms (cache miss)
+155 http fetch GET 200 https://registry.npmjs.org/needle/-/needle-3.3.1.tgz 834ms (cache miss)
+156 http fetch GET 200 https://registry.npmjs.org/clean-css/-/clean-css-5.3.3.tgz 932ms (cache miss)
+157 http fetch GET 200 https://registry.npmjs.org/less/-/less-4.3.0.tgz 1083ms (cache miss)
+158 silly ADD node_modules/less-plugin-clean-css
+159 silly ADD node_modules/less-plugin-clean-css/node_modules/source-map
+160 silly ADD node_modules/less-plugin-clean-css/node_modules/clean-css
+161 silly ADD node_modules/less
+162 silly ADD node_modules/less/node_modules/safer-buffer
+163 silly ADD node_modules/less/node_modules/sax
+164 silly ADD node_modules/less/node_modules/iconv-lite
+165 silly ADD node_modules/less/node_modules/semver
+166 silly ADD node_modules/less/node_modules/pify
+167 silly ADD node_modules/less/node_modules/prr
+168 silly ADD node_modules/less/node_modules/is-what
+169 silly ADD node_modules/less/node_modules/tslib
+170 silly ADD node_modules/less/node_modules/source-map
+171 silly ADD node_modules/less/node_modules/parse-node-version
+172 silly ADD node_modules/less/node_modules/needle
+173 silly ADD node_modules/less/node_modules/mime
+174 silly ADD node_modules/less/node_modules/make-dir
+175 silly ADD node_modules/less/node_modules/image-size
+176 silly ADD node_modules/less/node_modules/graceful-fs
+177 silly ADD node_modules/less/node_modules/errno
+178 silly ADD node_modules/less/node_modules/copy-anything
+179 verbose cwd /opt/odoo
+180 verbose os Linux 6.8.0-51-generic
+181 verbose node v18.20.8
+182 verbose npm  v10.8.2
+183 notice
+183 notice New [31mmajor[39m version of npm available! [31m10.8.2[39m -> [34m11.3.0[39m
+183 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v11.3.0[39m
+183 notice To update run: [4mnpm install -g npm@11.3.0[24m
+183 notice  { force: true, [Symbol(proc-log.meta)]: true }
+184 verbose exit 0
+185 info ok
